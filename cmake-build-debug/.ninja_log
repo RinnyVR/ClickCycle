@@ -1,7 +1,7 @@
 # ninja log v6
+3	426	7500184870697295	build.ninja	8ff3bc2e55df221d
 40	1185	7499867658758883	CMakeFiles/ClickCycle.dir/main.cpp.obj	2e7dceea10ac2c3
-10	243	7499900555096149	build.ninja	8ff3bc2e55df221d
-1062	1230	7499874865943346	ClickCycle.exe	d0102f99c2e926b9
+623	839	7500184558191306	ClickCycle.exe	3803cdbfaa4f2c07
 13	1060	7499874855457615	CMakeFiles/ClickCycle.dir/Source/main.cpp.obj	5f7e6961b60069ce
 15	509	7499900698765913	CMakeFiles/ClickCycle.dir/Source/RecordingFunction/FileWriter.cpp.obj	9572c1736104aa9f
-510	608	7499900703717492	ClickCycle.exe	1cffc19288a57563
+17	623	7500184552122004	CMakeFiles/ClickCycle.dir/Source/RecordingFunction/file_writer.cpp.obj	ccad64387094b4df

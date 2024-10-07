@@ -55,8 +55,8 @@ build CMakeFiles/ClickCycle.dir/Source/main.cpp.obj: CXX_COMPILER__ClickCycle_un
   OBJECT_DIR = CMakeFiles\ClickCycle.dir
   OBJECT_FILE_DIR = CMakeFiles\ClickCycle.dir\Source
 
-build CMakeFiles/ClickCycle.dir/Source/RecordingFunction/FileWriter.cpp.obj: CXX_COMPILER__ClickCycle_unscanned_Debug D$:/My$ projects/Colabolatory$ Work/ClickCycle/Source/RecordingFunction/FileWriter.cpp || cmake_object_order_depends_target_ClickCycle
-  DEP_FILE = CMakeFiles\ClickCycle.dir\Source\RecordingFunction\FileWriter.cpp.obj.d
+build CMakeFiles/ClickCycle.dir/Source/RecordingFunction/file_writer.cpp.obj: CXX_COMPILER__ClickCycle_unscanned_Debug D$:/My$ projects/Colabolatory$ Work/ClickCycle/Source/RecordingFunction/file_writer.cpp || cmake_object_order_depends_target_ClickCycle
+  DEP_FILE = CMakeFiles\ClickCycle.dir\Source\RecordingFunction\file_writer.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ClickCycle.dir
   OBJECT_FILE_DIR = CMakeFiles\ClickCycle.dir\Source\RecordingFunction
@@ -69,7 +69,7 @@ build CMakeFiles/ClickCycle.dir/Source/RecordingFunction/FileWriter.cpp.obj: CXX
 #############################################
 # Link the executable ClickCycle.exe
 
-build ClickCycle.exe: CXX_EXECUTABLE_LINKER__ClickCycle_Debug CMakeFiles/ClickCycle.dir/Source/main.cpp.obj CMakeFiles/ClickCycle.dir/Source/RecordingFunction/FileWriter.cpp.obj
+build ClickCycle.exe: CXX_EXECUTABLE_LINKER__ClickCycle_Debug CMakeFiles/ClickCycle.dir/Source/main.cpp.obj CMakeFiles/ClickCycle.dir/Source/RecordingFunction/file_writer.cpp.obj
   FLAGS = -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
