@@ -5,7 +5,7 @@
 
 using namespace std;
 
-void writeToFile(const vector<string> &srtArray, const string &filename)
+void WriteToFile(const vector<string> &srtArray, const string &filename)
 {
     //successfully opened file
     ofstream outFile(filename, ios::app);
