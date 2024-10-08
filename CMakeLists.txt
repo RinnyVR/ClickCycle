@@ -7,4 +7,6 @@ set(CMAKE_EXE_LINKER_FLAGS "-mwindows")
 
 add_executable(ClickCycle Source/main.cpp
         Source/RecordingFunction/file_writer.cpp
-        Source/RecordingFunction/file_writer.h)
+        Source/RecordingFunction/file_writer.h
+        Source/RecordingFunction/recording.cpp
+        Source/RecordingFunction/playback.cpp)

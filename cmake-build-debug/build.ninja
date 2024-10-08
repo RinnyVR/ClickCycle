@@ -61,6 +61,18 @@ build CMakeFiles/ClickCycle.dir/Source/RecordingFunction/file_writer.cpp.obj: CX
   OBJECT_DIR = CMakeFiles\ClickCycle.dir
   OBJECT_FILE_DIR = CMakeFiles\ClickCycle.dir\Source\RecordingFunction
 
+build CMakeFiles/ClickCycle.dir/Source/RecordingFunction/recording.cpp.obj: CXX_COMPILER__ClickCycle_unscanned_Debug D$:/My$ projects/Colabolatory$ Work/ClickCycle/Source/RecordingFunction/recording.cpp || cmake_object_order_depends_target_ClickCycle
+  DEP_FILE = CMakeFiles\ClickCycle.dir\Source\RecordingFunction\recording.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ClickCycle.dir
+  OBJECT_FILE_DIR = CMakeFiles\ClickCycle.dir\Source\RecordingFunction
+
+build CMakeFiles/ClickCycle.dir/Source/RecordingFunction/playback.cpp.obj: CXX_COMPILER__ClickCycle_unscanned_Debug D$:/My$ projects/Colabolatory$ Work/ClickCycle/Source/RecordingFunction/playback.cpp || cmake_object_order_depends_target_ClickCycle
+  DEP_FILE = CMakeFiles\ClickCycle.dir\Source\RecordingFunction\playback.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ClickCycle.dir
+  OBJECT_FILE_DIR = CMakeFiles\ClickCycle.dir\Source\RecordingFunction
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target ClickCycle
@@ -69,7 +81,7 @@ build CMakeFiles/ClickCycle.dir/Source/RecordingFunction/file_writer.cpp.obj: CX
 #############################################
 # Link the executable ClickCycle.exe
 
-build ClickCycle.exe: CXX_EXECUTABLE_LINKER__ClickCycle_Debug CMakeFiles/ClickCycle.dir/Source/main.cpp.obj CMakeFiles/ClickCycle.dir/Source/RecordingFunction/file_writer.cpp.obj
+build ClickCycle.exe: CXX_EXECUTABLE_LINKER__ClickCycle_Debug CMakeFiles/ClickCycle.dir/Source/main.cpp.obj CMakeFiles/ClickCycle.dir/Source/RecordingFunction/file_writer.cpp.obj CMakeFiles/ClickCycle.dir/Source/RecordingFunction/recording.cpp.obj CMakeFiles/ClickCycle.dir/Source/RecordingFunction/playback.cpp.obj
   FLAGS = -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
