@@ -1,3 +1,4 @@
+#include "file_writer.h"
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -5,7 +6,7 @@
 
 using namespace std;
 
-void WriteToFile(const vector<string> &srtArray, const string &filename)
+void FileWriter::WriteToFile(const vector<string> &srtArray, const string &filename)
 {
     //successfully opened file
     ofstream outFile(filename, ios::app);

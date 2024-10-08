@@ -1,4 +1,5 @@
 #include <windows.h>
+#include "RecordingFunction/file_writer.h"
 
 // Function declaration for the window procedure
 LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
@@ -78,6 +79,10 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
         if (LOWORD(wParam) == 1)  // If the button ID is 1
         {
             MessageBox(hwnd, "Started Recording!", "Notification", MB_OK);
+            FileWriter writer;
+            vector<std::string> strArray = {"ShiftLock Display 1", "Speed rec 1" , "69"};
+
+            writer.WriteToFile(strArray, "output.txt");
         }
         return 0;
 
