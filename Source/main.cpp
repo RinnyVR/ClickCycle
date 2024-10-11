@@ -82,7 +82,7 @@ LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
             FileWriter writer;
             vector<std::string> strArray = {"ShiftLock Display 1", "Speed rec 1" , "69"};
 
-            writer.WriteToFile(strArray, "output.txt");
+            writer.WriteToFile(strArray, "output.CC");
         }
         return 0;
 

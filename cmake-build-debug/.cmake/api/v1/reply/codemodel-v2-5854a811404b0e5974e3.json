@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/My projects/Colabolatory Work/ClickCycle/cmake-build-debug",
-		"source" : "D:/My projects/Colabolatory Work/ClickCycle"
+		"build" : "D:/Projects/ColabWork/ClickCycle/cmake-build-debug",
+		"source" : "D:/Projects/ColabWork/ClickCycle"
 	},
 	"version" : 
 	{
